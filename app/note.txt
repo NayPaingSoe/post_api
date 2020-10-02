@@ -1,0 +1,9 @@
+feeds
+user_id description image 
+
+comment 
+user_id feed_id comment 
+
+like 
+user_id feed_id 
+   
