@@ -28,7 +28,7 @@ class LikeController extends Controller
             return response()->json([
                         'status'=>500,
                         'message'=>'failed',
-                        'data'=>'you already like',
+                        'data'=>'you cannot like again',
                     ]);
            }
 

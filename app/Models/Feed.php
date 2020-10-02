@@ -18,6 +18,7 @@ class Feed extends Model
 //accessor
 
 
+
     public function user()
     {
         return $this->belongsTo('App\Models\User','user_id');
