@@ -16,14 +16,7 @@ class Feed extends Model
 //     return ucFirst($value);
 // }
 //accessor
-// public function setNameAttribute($$value)
-// {
-//     $this->attributes['name']="Mr".$$value;
-// }
-public function setNameAttribute($value)
-{
-    $this->attributes['name']="Mr".$value;
-}
+
 
     public function user()
     {
