@@ -80,7 +80,7 @@ class CommentController extends Controller
             ]);
         }
         return response()->json([
-                    'status'=>400,
+                    'status'=>600,
                     'message'=>'failed',
                     'data'=>'You cannot delete other comment'
                 ]);
