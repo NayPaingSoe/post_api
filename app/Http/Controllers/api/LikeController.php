@@ -27,8 +27,8 @@ class LikeController extends Controller
            if ($this->isalreadyLike($user_id,$feed_id)){
             return response()->json([
                         'status'=>500,
-                        'message'=>'failed',
-                        'data'=>'you cannot like again',
+                        'message'=>'fails',
+                        'data'=>'you cannot like agian',
                     ]);
            }
 
